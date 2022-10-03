@@ -15,8 +15,7 @@ public class Me {
         return "Just another sexy boi";
     }
 
-    @GetMapping("/name" +
-            "")
+    @GetMapping("/name")
     public String name() {
         return "Ghanshyam Mishra";
     }
